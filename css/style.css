@@ -1,0 +1,187 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+body{
+    font-family: 'Poppins', sans-serif;
+    background: #f3f1ff;
+}
+header{
+    background: #562EFF;
+    height: 112px;
+    width: 1440px;
+
+
+}
+nav{
+display: flex;
+justify-content: space-around;
+color: #ffff;
+
+   
+}
+li{
+    list-style: none;
+    margin-top: 25px;
+    
+}
+
+a{
+    color:hsl(0, 0%, 100%); 
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 24px;
+    padding: 25px;
+}
+
+main{display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.container{
+    width: 870px;
+    height: 679px;
+    background-color: #fff;
+    padding: 30px;
+    margin-top: 20px;
+    border-radius: 10px;
+   
+    
+    
+}
+
+.section-title{
+    color: #562eff;
+    font-size: 24px;
+    margin-top: 3px;
+}
+
+.players{
+    margin-bottom: 40px;
+}
+
+.top-player{
+    display: grid;
+    grid-template-columns:repeat(3, 1fr);
+    grid-gap: 30px;
+    
+    
+}
+
+.player{
+    display: flex;
+    align-items: center;
+}
+
+.player img{
+    width: 56px;
+    height: 56px;
+   
+}
+h3{
+    margin-left: 16px;
+    font-size: 17px;
+    
+}
+hr{
+    border: 1px solid #d1d1d1;
+    margin-bottom: 27px;
+
+    
+}
+.parent{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-row-gap:30px ;
+}
+
+.blogs{
+    display: flex;
+}
+img{
+    width: 177px;
+    height: 117px;
+}
+h4{
+    font-size: 20px;
+   
+}
+p{
+    font-size: 16px;
+   
+}
+
+
+span{
+    color: #562eff;
+}
+.titel{
+    margin-left: 16px;
+    
+}
+
+.blogs{
+    display: flex;
+}
+
+
+.courses{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 30px;
+}
+
+.stle{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.pic{
+    width: 230px;
+    margin: auto;
+    box-shadow: 5px 5px 1px lavender;
+    border-radius: 20px;
+
+}
+
+.pcolor{
+    font-size: 18px;
+}
+
+.icon{
+    color: rgb(223, 223, 10);
+    font-size: 15px;
+    
+}
+.clock, .pcolor{
+   
+    color: rgb(252, 52, 52);
+    padding: 4px;
+   
+    
+}
+
+.boxshade{
+    background-color: rgb(243, 219, 219);
+    border-radius: 38px;
+    font-size: 10px;
+    margin-right: 10px;
+    font-size: 10px;
+}
+@media only screen and (max-width:688px) {
+    .container{width: 100%;}
+    .top-player, .parent, .courses{
+        grid-template-columns: repeat(1, 1fr);
+        
+
+    }
+}
+@media only screen and (min-width:690px) and (max-width:992){
+    .container{width: 100%;}
+    .top-player .courses{grid-template-columns: repeat(1, 1fr);
+        
+
+    }
+}
+
